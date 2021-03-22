@@ -19,7 +19,7 @@
   "scripts": {
     "build": "tsc && vite build && tsc -P tsconfig.dts.json",
     "test": "jest --coverage",
-    "prepare": "pnpm build",
+    "prepare": "yarn build",
     "format": "prettier --ignore-path .gitignore --write .",
     "format:check": "prettier --ignore-path .gitignore --check ."
   },
